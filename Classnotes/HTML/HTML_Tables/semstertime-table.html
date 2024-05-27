@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <Style>
+      table ,th,td{
+        text-align: left;
+        border:1px solid black;
+        border-collapse: collapse;
+        td{
+            padding:8px
+        }
+
+        }
+    </Style>
+</head>
+<body>
+    <h1> HTML Tables</h1>
+    <table cellspacing ="0"> 
+        <tr> <!--Table Row-->
+            <th>Company </th><!--Table Header-->
+            <th>Contact</th>
+            <th> Country</th>
+        </tr>
+        <tr>
+            <td> Alfreds FutterKiste</td> <!--Table Data-->
+            <td> Maria Andres</td>
+            <td> Germany</td>
+        </tr>
+        <tr>
+            <td> Centro commerical Moctezuma</td>
+            <td>  Francisco Chang</td>
+            <td> Mexico</td>
+        </tr>
+    </table>
+    <head> 
+        <Style>
+            table ,th,td{
+              text-align: center;
+              border:1px solid black;
+              border-collapse: collapse;
+              td{
+                  padding:8px
+              }
+        
+              }
+        </style>
+    </head>
+</body>
+</html>
+<body>
+    <h1> Semester Time-Table</h1>
+    <table cellspacing ="0"> 
+    <tr style="background-color:rgba(79, 69, 69, 0.06)">
+        <th>  </th>
+       <th> Mon</th>
+       <th> Tue</th>
+       <th> Wed</th>
+       <th> Thu</th>
+       <th>   &nbsp; &nbsp;  Fri  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     </th>
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)"> 8am</td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+    </tr>
+    <tr> 
+        <td style="background-color:rgba(79, 69, 69, 0.06)"> 9am</td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)"> 10am</td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        <td>    </td>
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">11am</td>
+        <td> </td>
+        <td style="background-color:rgba(255, 166, 0, 0.585); color:black;" rowspan="2"> MGMT 1224<br>Lec<br/>F209 </td> 
+        <td style ="background-color: rgba(131, 255, 127, 0.945) ;" rowspan ="2"> cosc1200<br> Lab<br/> C249 </td>
+        <td></td>
+        <td>   </td>
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">12pm</td>
+        <td style ="background-color: darksalmon;" rowspan="2"> INFT 1206<br>Lab<br/>C316</td>
+        <td> </td>
+        <td>   </td>
+        
+        
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">1pm</td>
+        <td>   </td>
+        <td>   </td>
+        <td style = "background-color: rgba(131, 255, 127, 0.945) ;"  rowspan ="2"> cosc1200<br> Lab<br/> C316   </td>
+        <td>   </td>
+        
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">2pm</td>
+        <td>   </td>
+        <td style="background-color: rgba(131, 255, 127, 0.945);" rowspan ="2"> cosc1200<br> Lab<br/> C307 </td>
+        <td  style = "background-color: darksalmon;"rowspan ="2"> INFT 1206<br> Lec<br/> C249   </td>
+        <td>   </td>
+        
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)"> 3pm</td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        
+        <!-- <td>   </td> -->
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">4pm</td>
+        <td>   </td>
+        <td>   </td>
+        <td style="background-color:rgba(127, 255, 212, 0.374);" :;" rowspan ="2"> INFT 1207<br> Lec<br/> C250</td>
+        <td style="background-color: rgba(127, 255, 212, 0.951);"rowspan ="2"> MGMT 1223<br> Lec<br/> F209  </td>  </td>
+        <td>   </td>
+        
+    </tr>
+    <tr> 
+        <td style="background-color:rgba(79, 69, 69, 0.06)">5pm</td>
+        <td> </td>
+        <td style="background-color: rgba(127, 255, 212, 0.951);" rowspan ="1"> MGMT 1223<br> Lab<br/> C249  </td>
+        <td>   </td>
+        
+        
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">6pm</td>
+        <td>   </td>
+        <td style="background-color: rgba(127, 255, 212, 0.374);" :;" rowspan ="2"> INFT 1207<br> Lec<br/> C320   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">7pm</td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        
+        
+    </tr>
+    <tr>
+        <td style="background-color:rgba(79, 69, 69, 0.06)">8pm</td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        
+    </tr>
+</table>
+
+</body>
