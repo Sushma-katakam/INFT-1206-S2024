@@ -43,3 +43,16 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  @font-face{
+    font-family: 'blacknorth';
+    src: url('black-north-font/Blacknorthdemo-mLE25.otf');
+    font-weight: normal;
+    font-style:normal
+  }
+
+  @font-face{
+    font-family: kreon-font;
+    src:url('kreon-font/KreonBold-jj29.ttf');
+    font-weight: normal;
+    font-style:normal;
+  }
