@@ -1,0 +1,113 @@
+   /* * {
+    margin: 0;
+   } */
+
+   nav {
+      border: 1px solid blue;
+      display: flex;
+   }
+
+   ul { margin: 0; }
+
+   .left-nav-ul > li:hover {
+      text-decoration: underline;
+   }
+
+   .left-nav-ul {
+      border: 1px solid red;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      flex-basis: 50%;
+      justify-content: space-around;
+      align-items: center;
+      margin-right: 12%;
+   }
+   
+   .right-nav-ul {
+      border: 1px solid red;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      flex-basis: 20%;
+   }
+
+   .right-nav-ul{
+        margin-left: 10px;
+   }
+
+   #microsoft-logo {
+      width: auto;
+      height: 30px;
+   }
+
+   .main-container{
+      
+      height: 430px;
+      background-image: url("Microsoft.avif");
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+   }
+   .highlight-container{ 
+      background-color: white;
+      height: 40%;
+      width:35%;
+      margin: 50px;
+      padding:35px;
+      
+   }
+   .new-tag{
+      background-color: darkorange;
+      color: black;
+      font-weight: bold;
+      padding: 5px;
+   }
+   .surface -description{
+      font-size: 14px;
+   }
+
+   .pre-order{
+      background-color: blue;
+      color:white;
+      padding: 10px;
+      border-radius:  2px; 
+      border: none;
+      font: size 10px;
+   }
+   
+   .meet-pro-title{
+      margin-bottom: 0px;
+   }
+   .options{
+      height: 125px;
+      display: flex;
+      padding: 0 70px 0 70px;
+
+   }
+   /* .options * { */
+   .options > * {
+      /* border: 2px solid red; */
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+   }
+
+   .options > div * {
+      margin: 5px;
+      text-align: center;
+   }
+
+   .options > div i {
+      font-size: 25px;
+   }
+
+   .options > div a {
+      font-size: 13px;
+   }
