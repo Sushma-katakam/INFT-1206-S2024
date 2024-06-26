@@ -11,9 +11,9 @@ INFT 1206-S2024
 
 [Assignment 3](Assignments/Assignment_3/index.html)
 [Assignment 3 -part 1](Assignments/Assignment_3/Part_1/biography.html)
-[Assignment 3 -part 2](Assignments/Assignment_3/part_2/index.html)
-[Assignment 3 -part 3](Assignments/Assignment_3/part_3/index.html)
-[Assignment 3 -part 4](Assignments/Assignment_3/part_4/index.html)
+[Assignment 3 -part 2](Assignments/Assignment_3/Part_2/index.html)
+[Assignment 3 -part 3](Assignments/Assignment_3/Part_3/index.html)
+[Assignment 3 -part 4](Assignments/Assignment_3/Part_4/index.html)
 
 [Assignment 4](Assignments/Assignment_4/index.html)
 
