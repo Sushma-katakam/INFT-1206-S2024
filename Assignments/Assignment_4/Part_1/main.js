@@ -35,5 +35,13 @@ function result() {
         const name = customName.value;
         newstory = newstory.replace("Bob", name)
     }
+    if (document.getElementById("uk").checked) {
+        const weight = `${Math.round(300 / 14)} stone`;
+        const temperature = `${Math.round((94 - 32) * 5 / 9)} centigrade`;
+        newstory = newstory.replace("94 fahrenheit", temperature).replace("300 pounds", weight)
+    }
+    story.textContent = newstory;
+    story.style.visibility = 'visible';
+
 
 }
