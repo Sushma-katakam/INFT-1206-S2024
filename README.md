@@ -17,5 +17,6 @@ INFT 1206-S2024
 
 [Assignment 4](Assignments/Assignment_4/index.html)
 [Assignment 4 -part 1](Assignments/Assignment_4/Part_1/index.html)
+[Assignment 4 - part 2](Assignments/Assignment_4/Part_2/index.html)
 
 [Assignment 5](Assignments/Assignment_5/index.html)
