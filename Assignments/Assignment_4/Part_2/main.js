@@ -19,7 +19,16 @@ const alt = ["pic 1", "pic 2", "pic 3", "pic 4", "pic 5"];
 
 /* Looping through images */
 
-
+for (const image of images) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', `images/${image}`);
+    newImage.setAttribute('alt', alt[image]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', a => {
+        displayedImage.src = a.target.src;
+        displayedImage.alt = a.target.alt;
+    })
+}
 
 const newImage = document.createElement('img');
 newImage.setAttribute('src', xxx);
