@@ -1,3 +1,10 @@
+/*
+Name: Sushma Katakam
+  Date : 13th August 2024
+  File : main.js
+  Description : Accessibility troubleshooting
+   */
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
