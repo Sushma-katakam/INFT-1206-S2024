@@ -52,3 +52,14 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+const transcribe_btn = document.querySelector('.transcribe-button');
+const transcribe_text = document.querySelector('.transcribe-text');
+transcribe_text.style.display = 'none'
+transcribe_btn.addEventListener('click', e => {
+  if (transcribe_text.style.display === "none") {
+    transcribe_text.textContent = 'This isn\'t really an audio fact file about bears, but it is an audio file that you can transcribe.';
+    } else {
+      transcribe_text.style.display = "none";
+  }
+})
