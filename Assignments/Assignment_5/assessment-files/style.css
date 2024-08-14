@@ -82,28 +82,28 @@ article {
   margin-right: 10px;
 }
 
-div[class="nav"] {
+nav[class="nav"] {
   height: 50px;
-  background-color: ff80ff;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
 }
 
-div[class="nav"] ul {
+nav[class="nav"] ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-div[class="nav"] li {
+nav[class="nav"] li {
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-div[class="nav"] a {
+nav[class="nav"] a {
+  font-weight: bold;
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
@@ -111,7 +111,7 @@ div[class="nav"] a {
   color: black;
 }
 
-div[class="nav"] .search {
+nav[class="nav"] .search {
   flex: 1;
   display: flex;
   align-items: center;
@@ -200,15 +200,7 @@ audio {
   cursor: pointer;
 }
 
-.comments font[size="6"] {
-  font-size: 2rem;
-}
-
-.comments font[size="6"]:nth-of-type(2) {
-  margin-bottom: 0;
-}
-
-.comment-form {
+comment-form {
   margin-bottom: 3rem;
 }
 
@@ -220,7 +212,6 @@ audio {
 .comment-form label {
   align-self: center;
   flex: 2;
-  text-align: right;
 }
 
 .comment-form input {
@@ -266,4 +257,24 @@ audio {
 
 .comment-container li p:nth-child(2) {
   flex: 5;
+}
+
+.searchbar-label {
+  display: none;
+}
+
+.transcribe {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.transcribe-button {
+  background: #333;
+  color: white;
+  font-size: 1.6rem;
+  height: 32px;
+}
+
+.transcribe-button:hover {
+  background: #171717;
 }
